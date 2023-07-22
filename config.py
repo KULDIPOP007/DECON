@@ -15,14 +15,14 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 LOGGER_ID = int(getenv("LOGGER_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹sʜɪᴢᴜᴋᴀ_ɴᴏʙɪ ꭙ ᴍᴜsɪᴄ˼")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "➻❥⏤‌⃝➳⃝𝐃𝐄𝐂𝐎𝐍_𝐌𝐔𝐒𝐈𝐂➣❥⃟ 𝐗𝐃᭄❥︎≛⃝ 🫧")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5263125368").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NOBITAOP07/Sanskarimusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/KULDIPOP007/DECON")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -77,11 +77,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b42b825cfa390086ec734.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d4874d25bcbdf6d67bf60.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/668d7a1ec5b64349bd5ba.jpg",
+    "https://te.legra.ph/file/d4874d25bcbdf6d67bf60.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/a5a1f665aaeca3e0f026c.jpg"
